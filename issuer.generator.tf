@@ -1,4 +1,5 @@
-resource "local_file" "foo" {
+resource "local_file" "food" {
+
     content = <<EOF
 ---
 apiVersion: certmanager.k8s.io/v1alpha1
